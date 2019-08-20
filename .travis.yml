@@ -84,3 +84,5 @@ jobs:
     #     - yarn run -s test:generate-app -- --dbclient=mongo --dbhost=localhost --dbport=27017 --dbname=strapi_test --dbusername= --dbpassword=
     #     - yarn run -s test:start-app & wait-on http://localhost:1337
     #     - node test/cypress.js
+after_success:
+  - bash <(curl -s https://copilot.blackducksoftware.com/ci/travis/scripts/upload)
