@@ -29,7 +29,9 @@
     "prebuild": "rimraf dist",
     "build": "rollup -c",
     "watch": "rollup -c -w",
-    "test": "echo \"no tests yet\""
+    "test": "echo \"no tests yet\"",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
@@ -64,7 +66,9 @@
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.0",
     "reactstrap": "^5.0.0",
-    "whatwg-fetch": "^2.0.3"
+    "whatwg-fetch": "^2.0.3",
+    "snyk": "^1.316.1"
   },
-  "gitHead": "c85658a19b8fef0f3164c19693a45db305dc07a9"
+  "gitHead": "c85658a19b8fef0f3164c19693a45db305dc07a9",
+  "snyk": true
 }
