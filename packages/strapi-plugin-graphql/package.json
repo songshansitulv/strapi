@@ -8,7 +8,9 @@
     "description": "Description of graphql plugin."
   },
   "scripts": {
-    "test": "echo \"no tests yet\""
+    "test": "echo \"no tests yet\"",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "apollo-server-koa": "^2.5.0",
@@ -23,7 +25,8 @@
     "graphql-type-long": "^0.1.1",
     "koa-compose": "^4.0.0",
     "pluralize": "^7.0.0",
-    "strapi-utils": "3.0.0-beta.15"
+    "strapi-utils": "3.0.0-beta.15",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "cross-env": "^5.2.0",
@@ -47,5 +50,6 @@
     "npm": ">=6.0.0"
   },
   "license": "MIT",
-  "gitHead": "c85658a19b8fef0f3164c19693a45db305dc07a9"
+  "gitHead": "c85658a19b8fef0f3164c19693a45db305dc07a9",
+  "snyk": true
 }
