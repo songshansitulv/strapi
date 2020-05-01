@@ -1,9 +1,57 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.12.0
+version: v1.14.1
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   shelljs:
     - '*':
         reason: testing
         expires: 2019-01-04T14:35:17.133Z
-patch: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@babel/core > lodash':
+        patched: '2020-05-01T08:34:28.703Z'
+    - duplicate-package-checker-webpack-plugin > lodash:
+        patched: '2020-05-01T08:34:28.703Z'
+    - html-webpack-plugin > lodash:
+        patched: '2020-05-01T08:34:28.703Z'
+    - node-sass > lodash:
+        patched: '2020-05-01T08:34:28.703Z'
+    - postcss-smart-import > lodash:
+        patched: '2020-05-01T08:34:28.703Z'
+    - strapi-helper-plugin > lodash:
+        patched: '2020-05-01T08:34:28.703Z'
+    - strapi-utils > lodash:
+        patched: '2020-05-01T08:34:28.703Z'
+    - '@babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2020-05-01T08:34:28.703Z'
+    - styled-components > @babel/traverse > lodash:
+        patched: '2020-05-01T08:34:28.703Z'
+    - node-sass > sass-graph > lodash:
+        patched: '2020-05-01T08:34:28.703Z'
+    - strapi-utils > knex > lodash:
+        patched: '2020-05-01T08:34:28.703Z'
+    - styled-components > babel-plugin-styled-components > lodash:
+        patched: '2020-05-01T08:34:28.703Z'
+    - '@babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash':
+        patched: '2020-05-01T08:34:28.703Z'
+    - styled-components > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T08:34:28.703Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2020-05-01T08:34:28.703Z'
+    - '@babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash':
+        patched: '2020-05-01T08:34:28.703Z'
+    - styled-components > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T08:34:28.703Z'
+    - styled-components > babel-plugin-styled-components > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2020-05-01T08:34:28.703Z'
+    - '@babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash':
+        patched: '2020-05-01T08:34:28.703Z'
+    - styled-components > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-05-01T08:34:28.703Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-05-01T08:34:28.703Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-05-01T08:34:28.703Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2020-05-01T08:34:28.703Z'
