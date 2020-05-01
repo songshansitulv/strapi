@@ -9,11 +9,14 @@
     "required": true
   },
   "scripts": {
-    "test": "echo \"no tests yet\""
+    "test": "echo \"no tests yet\"",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "strapi-provider-email-sendmail": "3.0.0-beta.15",
-    "strapi-utils": "3.0.0-beta.15"
+    "strapi-utils": "3.0.0-beta.15",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "react-copy-to-clipboard": "5.0.1",
@@ -41,5 +44,6 @@
     "npm": ">=6.0.0"
   },
   "license": "MIT",
-  "gitHead": "c85658a19b8fef0f3164c19693a45db305dc07a9"
+  "gitHead": "c85658a19b8fef0f3164c19693a45db305dc07a9",
+  "snyk": true
 }
