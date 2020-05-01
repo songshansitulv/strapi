@@ -1,0 +1,202 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - knex > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-utils > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-hook-knex > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-hook-bookshelf > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-hook-mongoose > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-middleware-views > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-content-manager > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-content-type-builder > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-documentation > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-settings-manager > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-upload > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-users-permissions > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-provider-email-mailgun > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-provider-upload-aws-s3 > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-utils > knex > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi > async > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi > inquirer > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-hook-bookshelf > inquirer > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi > strapi-utils > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-admin > strapi-utils > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-hook-bookshelf > strapi-utils > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-hook-mongoose > strapi-utils > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-content-manager > strapi-utils > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-email > strapi-utils > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-graphql > strapi-utils > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-upload > strapi-utils > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-users-permissions > strapi-utils > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi > strapi-generate > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-content-type-builder > strapi-generate > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi > strapi-generate-api > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-content-type-builder > strapi-generate-api > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi > strapi-generate-controller > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi > strapi-generate-model > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi > strapi-generate-new > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi > strapi-generate-plugin > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi > strapi-generate-policy > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi > strapi-generate-service > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-admin > @babel/core > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-admin > duplicate-package-checker-webpack-plugin > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-admin > html-webpack-plugin > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-admin > node-sass > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-admin > postcss-smart-import > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-admin > strapi-helper-plugin > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-content-manager > strapi-helper-plugin > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-content-type-builder > strapi-helper-plugin > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-documentation > strapi-helper-plugin > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-settings-manager > strapi-helper-plugin > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-upload > strapi-helper-plugin > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-users-permissions > strapi-helper-plugin > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-hook-bookshelf > bookshelf > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-hook-knex > knex > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-hook-bookshelf > strapi-hook-knex > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-documentation > cheerio > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-email > strapi-provider-email-sendmail > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi > strapi-utils > knex > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-admin > strapi-utils > knex > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-hook-bookshelf > strapi-utils > knex > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-hook-mongoose > strapi-utils > knex > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-content-manager > strapi-utils > knex > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-email > strapi-utils > knex > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-graphql > strapi-utils > knex > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-upload > strapi-utils > knex > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-users-permissions > strapi-utils > knex > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi > strapi-generate > async > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-content-type-builder > strapi-generate > async > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-provider-email-mailgun > mailgun-js > async > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi > strapi-generate-new > inquirer > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi > strapi-generate > strapi-utils > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-content-type-builder > strapi-generate > strapi-utils > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-admin > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-admin > styled-components > @babel/traverse > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-content-manager > styled-components > @babel/traverse > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-admin > node-sass > sass-graph > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-admin > styled-components > babel-plugin-styled-components > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-content-manager > styled-components > babel-plugin-styled-components > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-hook-bookshelf > strapi-hook-knex > knex > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-users-permissions > koa2-ratelimit > sequelize > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi > strapi-generate > strapi-utils > knex > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-content-type-builder > strapi-generate > strapi-utils > knex > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-admin > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-admin > styled-components > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-content-manager > styled-components > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-admin > node-sass > gaze > globule > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-users-permissions > purest > request > form-data > async > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-admin > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-admin > styled-components > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-content-manager > styled-components > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-admin > styled-components > babel-plugin-styled-components > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-content-manager > styled-components > babel-plugin-styled-components > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-admin > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-documentation > react-select > emotion > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-admin > styled-components > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-plugin-content-manager > styled-components > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-admin > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-admin > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
+    - strapi-admin > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-05-01T07:16:26.216Z'
