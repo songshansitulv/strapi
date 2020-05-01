@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev",
-    "build": "vuepress build"
+    "build": "vuepress build",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "",
   "license": "ISC",
@@ -15,9 +17,11 @@
     "markdown-it-decorate": "^1.2.2",
     "vue-tabs-component": "^1.5.0",
     "vuepress": "^0.14.2",
-    "vuepress-tabs": "^0.1.6"
+    "vuepress-tabs": "^0.1.6",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "markdown-it-container": "^2.0.0"
-  }
+  },
+  "snyk": true
 }
