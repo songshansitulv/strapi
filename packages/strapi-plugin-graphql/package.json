@@ -11,7 +11,7 @@
     "test": "echo \"no tests yet\""
   },
   "dependencies": {
-    "apollo-server-koa": "^2.5.0",
+    "apollo-server-koa": "^3.0.0",
     "dataloader": "^1.4.0",
     "glob": "^7.1.4",
     "graphql": "^14.3.0",
@@ -23,7 +23,7 @@
     "graphql-type-long": "^0.1.1",
     "koa-compose": "^4.0.0",
     "pluralize": "^7.0.0",
-    "strapi-utils": "3.0.0-beta.15"
+    "strapi-utils": "3.0.0"
   },
   "devDependencies": {
     "cross-env": "^5.2.0",
