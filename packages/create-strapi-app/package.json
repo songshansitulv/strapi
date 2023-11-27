@@ -21,7 +21,7 @@
   ],
   "dependencies": {
     "commander": "^2.20.0",
-    "strapi-generate-new": "3.0.0-beta.15"
+    "strapi-generate-new": "3.2.1"
   },
   "scripts": {
     "test": "echo \"no tests yet\""
